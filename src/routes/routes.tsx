@@ -10,10 +10,10 @@ const routes: RouteObject[] = [
   {
     index: true,
     path: '/',
-    element: <Navigate to={'/react-blog/home'} />,
+    element: <Navigate to={'/home'} />,
   },
   {
-    path: '/react-blog/home',
+    path: '/home',
     element: <Home />,
   },
   // {
