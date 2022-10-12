@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -b main -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.0",
